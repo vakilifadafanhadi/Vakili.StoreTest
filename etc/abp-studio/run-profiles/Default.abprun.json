@@ -1,0 +1,13 @@
+﻿{
+  "applications": {
+    "Vakili.StoreTest.Web": {
+      "type": "dotnet-project",
+      "launchUrl": "https://localhost:44313",
+      "path": "../../../src/Vakili.StoreTest.Web/Vakili.StoreTest.Web.csproj",
+      "kubernetesService": ".*-web$",
+      "execution": {
+        "order": 2
+      }
+    }
+  }
+}

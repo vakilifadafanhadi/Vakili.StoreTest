@@ -1,0 +1,105 @@
+{
+  "template": "app",
+  "imports": {
+    "Volo.Abp.LeptonXLiteTheme": {
+      "version": "4.0.5",
+      "isInstalled": true
+    },
+    "Volo.Abp.Account": {
+      "version": "9.0.4",
+      "isInstalled": true
+    },
+    "Volo.Abp.OpenIddict": {
+      "version": "9.0.4",
+      "isInstalled": true
+    },
+    "Volo.Abp.Identity": {
+      "version": "9.0.4",
+      "isInstalled": true
+    },
+    "Volo.Abp.TenantManagement": {
+      "version": "9.0.4",
+      "isInstalled": true
+    },
+    "Volo.Abp.SettingManagement": {
+      "version": "9.0.4",
+      "isInstalled": true
+    },
+    "Volo.Abp.PermissionManagement": {
+      "version": "9.0.4",
+      "isInstalled": true
+    },
+    "Volo.Abp.FeatureManagement": {
+      "version": "9.0.4",
+      "isInstalled": true
+    }
+  },
+  "folders": {
+    "items": {
+      "src": {},
+      "test": {}
+    }
+  },
+  "packages": {
+    "Vakili.StoreTest.Application": {
+      "path": "src/Vakili.StoreTest.Application/Vakili.StoreTest.Application.abppkg",
+      "folder": "src"
+    },
+    "Vakili.StoreTest.Application.Tests": {
+      "path": "test/Vakili.StoreTest.Application.Tests/Vakili.StoreTest.Application.Tests.abppkg",
+      "folder": "test"
+    },
+    "Vakili.StoreTest.Domain.Shared": {
+      "path": "src/Vakili.StoreTest.Domain.Shared/Vakili.StoreTest.Domain.Shared.abppkg",
+      "folder": "src"
+    },
+    "Vakili.StoreTest.Application.Contracts": {
+      "path": "src/Vakili.StoreTest.Application.Contracts/Vakili.StoreTest.Application.Contracts.abppkg",
+      "folder": "src"
+    },
+    "Vakili.StoreTest.HttpApi": {
+      "path": "src/Vakili.StoreTest.HttpApi/Vakili.StoreTest.HttpApi.abppkg",
+      "folder": "src"
+    },
+    "Vakili.StoreTest.HttpApi.Client": {
+      "path": "src/Vakili.StoreTest.HttpApi.Client/Vakili.StoreTest.HttpApi.Client.abppkg",
+      "folder": "src"
+    },
+    "Vakili.StoreTest.Web": {
+      "path": "src/Vakili.StoreTest.Web/Vakili.StoreTest.Web.abppkg",
+      "folder": "src"
+    },
+    "Vakili.StoreTest.Web.Tests": {
+      "path": "test/Vakili.StoreTest.Web.Tests/Vakili.StoreTest.Web.Tests.abppkg",
+      "folder": "test"
+    },
+    "Vakili.StoreTest.EntityFrameworkCore.Tests": {
+      "path": "test/Vakili.StoreTest.EntityFrameworkCore.Tests/Vakili.StoreTest.EntityFrameworkCore.Tests.abppkg",
+      "folder": "test"
+    },
+    "Vakili.StoreTest.EntityFrameworkCore": {
+      "path": "src/Vakili.StoreTest.EntityFrameworkCore/Vakili.StoreTest.EntityFrameworkCore.abppkg",
+      "folder": "src"
+    },
+    "Vakili.StoreTest.TestBase": {
+      "path": "test/Vakili.StoreTest.TestBase/Vakili.StoreTest.TestBase.abppkg",
+      "folder": "test"
+    },
+    "Vakili.StoreTest.Domain.Tests": {
+      "path": "test/Vakili.StoreTest.Domain.Tests/Vakili.StoreTest.Domain.Tests.abppkg",
+      "folder": "test"
+    },
+    "Vakili.StoreTest.HttpApi.Client.ConsoleTestApp": {
+      "path": "test/Vakili.StoreTest.HttpApi.Client.ConsoleTestApp/Vakili.StoreTest.HttpApi.Client.ConsoleTestApp.abppkg",
+      "folder": "test"
+    },
+    "Vakili.StoreTest.DbMigrator": {
+      "path": "src/Vakili.StoreTest.DbMigrator/Vakili.StoreTest.DbMigrator.abppkg",
+      "folder": "src"
+    },
+    "Vakili.StoreTest.Domain": {
+      "path": "src/Vakili.StoreTest.Domain/Vakili.StoreTest.Domain.abppkg",
+      "folder": "src"
+    }
+  }
+}
